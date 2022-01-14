@@ -1,0 +1,219 @@
+/*
+	>> Editor MainClass
+*/
+
+.wysiwyg_editor {
+	color: #7a878e;
+	display: block;
+	width: 100%;
+}
+
+/*
+	>>	Editor Head
+*/
+
+.wysiwyg_editor > .wysiwyg_editor_head {
+	color: #7a878e;
+	background-color: #ecf0f5;
+	padding: 10px;
+}
+
+/*
+	>> Editor Head Buttons
+*/
+
+.editor_button_font_family {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.editor_button_font_size {
+	font-size: 16px;
+}
+
+.editor_button_color {
+	color: #0ab1fc;
+}
+
+/*
+	>> Editor Body
+*/
+
+.wysiwyg_editor > .wysiwyg_editor_body {
+	display: block;
+}
+
+.wysiwyg_editor > .wysiwyg_editor_body > textarea.wysiwyg_editor_textarea,
+.wysiwyg_editor > .wysiwyg_editor_body > textarea.wysiwyg_editor_textarea:hover,
+.wysiwyg_editor > .wysiwyg_editor_body > textarea.wysiwyg_editor_textarea:focus {
+	color: #7a878e;
+	background-color: white;
+	border-top: 0;
+	border-right: 1px solid #ecf0f5;
+	border-bottom: 1px solid #ecf0f5;
+	border-left: 1px solid #ecf0f5;
+	height: 250px;
+	width: 100%;
+	resize: none;
+	padding: 10px;
+	outline: 0;
+	margin: 0;
+}
+
+/*
+	>> Editor Footer
+*/
+
+.wysiwyg_editor > .wysiwyg_editor_footer {
+	background-color: #ecf0f5;
+	margin-top: -4px;
+	margin-right: auto;
+  margin-left: auto;
+  padding: 9px 10px 10px 10px;
+}
+
+.wysiwyg_editor > .wysiwyg_editor_footer > .row {
+	margin-left: -10px;
+  margin-right: -10px;
+}
+
+.wysiwyg_editor > .wysiwyg_editor_footer > .row > .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.wysiwyg_editor_footer_text {
+	cursor: default;
+	margin: 0;
+}
+
+.wysiwyg_editor_footer_text > a,
+.wysiwyg_editor_footer_text > a:focus {
+	color: #7a878e;
+	text-decoration: none;
+}
+
+.wysiwyg_editor_footer_text > a:hover {
+	color: #79af3a;
+	text-decoration: underline;
+	transition: all 0.3s ease;
+}
+
+/*
+	>> Color Picker
+*/
+
+.editor_color_picker_background {
+	text-align: center;
+	border-radius: 2.5px;
+	padding: 75px 10px;
+}
+
+.editor_color_picker_background > p {
+	font-weight: bold;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.editor_color_picker_presets {
+	display: block;
+	margin: 0 -10px;
+}
+
+ul.editor_preset_colors {
+	display: block;
+	list-style-type: none;
+	list-style: none;
+	margin: -10px -10px -10px -25px;
+	align-items: center;
+}
+
+ul.editor_preset_colors > li.editor_preseted_color {
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px;
+}
+
+ul.editor_preset_colors > li.editor_preseted_color > div {
+	display: inline-block;
+	padding: 15px;
+	border-radius: 2.5px;
+}
+
+/*
+	>> Image Insert
+*/
+
+.editor_image_insert_preview {
+	height: 250px;
+	width: 100%;
+	border-radius: 2.5px;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	>> Media insert
+*/
+
+.editor_media_insert_input .form-group {
+	margin-bottom: 0;
+}
+
+.editor_media_insert_type > .form-group {
+	padding-right: 10px;
+}
+
+/*
+	>> Editor Misc
+*/
+
+.editor_misc_item {
+	margin: 10px 0 0 0;
+}
+
+.editor_misc_item:first-child {
+	margin: 0;
+}
+
+.editor_misc_item > .editor_misc_item_title {
+	font-weight: bold;
+	cursor: default;
+	margin: 0;
+}
+
+.editor_misc_item > hr.divider {
+	margin: 10px 0 10px 0;
+}
+
+.editor_misc_item > .collapse.editor_misc_item_spoiler_collapse > .well {
+	margin: 10px 0 0 0;
+}
+
+.editor_misc_item > .well.editor_misc_item_linebreak_well {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+/*
+	>> AdvancedCode Insert
+*/
+
+.editor_advcode_insert_input > div.form-group > div.form-control {
+	height: 280px;
+	min-height: 280px;
+	max-height: 280px;
+}
+
+/*
+	>> Word Count
+*/
+
+.wysiwyg_editor_footer_word_count {
+	text-align: right;
+	cursor: default;
+	margin: 0;
+}
