@@ -47,7 +47,7 @@ Discussion forums play a vital role in facilitating communication and collaborat
    - Run the following command to clone the repository:
 
      ```shell
-     git clone [https://github.com/minionsrahat/Gym-Management-System](https://github.com/minionsrahat/IIT-E-PLATFORM/)
+     git clone https://github.com/minionsrahat/IIT-E-PLATFORM/
      ```
 
 2. Import the Database:
